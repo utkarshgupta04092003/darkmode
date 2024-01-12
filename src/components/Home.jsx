@@ -2,16 +2,14 @@ import React, { useContext } from 'react'
 import '../App.css'
 import { themeContext } from '../context/ThemeContext'
 function Home() {
-  const [darkToggle, setDarkToggle] = React.useState(false)
 
-    // usecontext here
+  // usecontext here
   const {darkMode} = useContext(themeContext);
   console.log('context darkmode value', darkMode)
-  console.log(darkToggle)
   return (
     <div
     className={`h-screen w-full flex items-center justify-center bg-gray-300 flex-col ${
-        darkMode && 'dark'
+        darkMode && (darkMode=='true' || darkMode==true) && 'dark'
       }`}
     >
       
