@@ -1,20 +1,27 @@
 # React Dark Mode App
 
-![React Dark Mode App](./screenshot.png)
-
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Features](#features)
-3. [How to Use](#how-to-use)
-4. [Project Structure](#project-structure)
-5. [Technologies Used](#technologies-used)
-6. [Contributions](#contributions)
-7. [License](#license)
+2. [Screenshots](#Screenshots)
+3. [Features](#features)
+4. [How to Use](#how-to-use)
+5. [Project Structure](#project-structure)
+6. [Technologies Used](#technologies-used)
+7. [Contributions](#contributions)
+8. [License](#license)
 
 ## Overview
 
 The React Dark Mode App is a simple web application built with Vite, React, Tailwind CSS, and Context API. The app includes a dark mode functionality allowing users to switch between light and dark themes seamlessly.
+
+## Screenshots
+
+Light mode:
+![image](https://github.com/utkarshgupta04092003/darkmode/assets/63789702/18898495-27da-4e45-81e2-b6935882a4dd)
+
+Dark mode:
+![image](https://github.com/utkarshgupta04092003/darkmode/assets/63789702/8883f8eb-c028-4d23-acea-0d4ffa6b1ca7)
 
 ## Features
 
